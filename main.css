@@ -1,0 +1,233 @@
+body {
+    background-color: #1F2326;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ellipse {
+    display: flex;
+    justify-content: space-between;
+}
+.big-ellipse {
+    width: 50%;
+
+}
+.small-ellipse {
+    padding-top: 74px;
+    margin-right: 219px;
+
+}
+.ellipse-gray {
+    position: relative;
+    display: block;
+    padding-top: 64px;
+    right: 104px;  
+}
+.middle-ellipse {
+    padding-top: 20px;
+    position: absolute;
+    right: 55px;
+}
+.vl-page {
+    z-index: 1;
+    position: relative;
+    top: -550px;
+    width: 1240px;
+    margin: auto;
+}
+header {
+    background-color: #282a2c;
+    display: flex;
+    align-items: center;
+    width: 1240px;
+    margin: auto;
+    font-size: 14px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+.logo {
+    margin-left: 20px;
+}
+.menu {
+    display: flex;
+    list-style: none;
+}
+.menu__item {
+    color: #fff;
+    padding-left: 15px;
+}
+.menu img {
+    position: relative;
+    top: -4px;
+}
+.login {
+    display: flex;
+    color: #fff;
+    align-items: center;
+    margin-left: 120px
+}
+.avatars {
+    border-radius: 100px;
+    padding-right: 10px;
+}
+.login-arrow {
+    position: relative;
+    top: -2px;
+}
+.background {
+    background: url(image/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container {
+    background: url(image/elements.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ff4656c4;
+    display: flex;
+    justify-content: space-between;
+}
+.text-agent {
+    height: 500px;
+    margin-left: 100px;
+    margin-right: 0px;
+    margin-top: 100px;
+}
+.hero-cards {
+    display: flex;
+    position: relative;
+    left: 80px;
+    width: 1100px;
+    margin: auto;
+}
+.hero-1 {
+    height: 450px;
+
+}
+.hero-2 {
+    height: 450px;
+
+}
+.hero-3 {
+    height: 450px;
+
+}
+.hero-4 {
+    height: 450px;
+    position: relative;
+    padding-left: 60px
+}
+.magic {
+    display: flex;
+    width: 200px;
+    align-items: center;
+    justify-content: space-around;
+    border: solid 2px #fff;
+    background-color: #1F2326;
+    position: relative;
+    top: -210px;
+    left: 10px;
+    height: 50px;
+}
+.magic-0 {
+    display: flex;
+    width: 200px;
+    align-items: center;
+    justify-content: space-around;
+    border: solid 2px #fff;
+    background-color: #1F2326;
+    position: relative;
+    top: -350px;
+    left: 10px;
+    height: 50px;
+}
+.magic-2 {
+    display: flex;
+    width: 200px;
+    align-items: center;
+    justify-content: space-around;
+    border: solid 2px #1F2326;
+    background-color: #fff;
+    position: relative;
+    top: -210px;
+    left: 10px;
+    height: 50px;
+    
+}
+.magic img {
+    width: 25px;
+}
+.magic-0 img {
+    width: 25px;
+}
+.magic-2 img {
+    width: 25px;
+}
+.name-hero-1 {
+    position: relative;
+    left: -160px;
+    top: -400px;
+    height: 300PX;
+}
+.name-hero-2 {
+    position: relative;
+    left: -125px;
+    top: -400px;
+    height: 160px;
+}
+.name-hero-3 {
+    position: relative;
+    left: -70px;
+    top: -400px;
+    height: 160px;
+}
+.name-hero-4 {
+    position: relative;
+    left: -70px;
+    top: -400px;
+    height: 160px;
+}
+.country-1 {
+    transform: rotate(90deg);
+    display: inline-block;
+    position: relative;
+    top: -625px;
+    right: 40px;
+    margin: 0;
+    font-weight: 700;
+    color: #FF4656;
+}
+.country-2 {
+    transform: rotate(90deg);
+    display: inline-block;
+    position: relative;
+    top: -500px;
+    right: 25px;
+    margin: 0;
+    font-weight: 700;
+    color: #FF4656;
+}
+.country-3 {
+    transform: rotate(90deg);
+    display: inline-block;
+    position: relative;
+    top: -525px;
+    right: ;
+    margin: 0;
+    font-weight: 700;
+    color: #FF4656;
+}
+.country-4 {
+    transform: rotate(90deg);
+    display: inline-block;
+    position: relative;
+    top: -529px;
+    right: 1px;
+    margin: 0;
+    font-weight: 700;
+    color: #FF4656;
+}
